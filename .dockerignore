@@ -1,0 +1,16 @@
+.git
+.gitignore
+.env
+*.log
+
+**/target
+**/node_modules
+frontend/dist
+frontend/*.tsbuildinfo
+backend/data
+backend/backups
+backend/src/main/resources/static
+
+.idea
+.vscode
+.DS_Store

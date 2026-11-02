@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:socialdesk-test;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+server:
+  servlet:
+    session:
+      cookie:
+        secure: false
+
+app:
+  base-url: http://localhost:5173
+  reviewer-email: admin@specanciens.local
+  backup-dir: target/test-backups
+  timezone: Asia/Kolkata
+  backup-retention-days: 30
+  bootstrap-admin:
+    email: admin@specanciens.local
+    password: ChangeMe123!
+    name: Test Super Admin
+
+logging:
+  level:
+    org.hibernate.SQL: warn

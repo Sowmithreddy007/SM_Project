@@ -1,0 +1,13 @@
+package com.specanciens.socialdesk;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SocialdeskApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

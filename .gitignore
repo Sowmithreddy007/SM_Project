@@ -1,0 +1,23 @@
+# Build output
+backend/target/
+frontend/dist/
+frontend/node_modules/
+backend/src/main/resources/static/
+
+# Local databases and snapshots
+backend/data/
+backend/backups/
+backups/
+
+# Secrets
+.env
+*.local
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# TS build info
+frontend/*.tsbuildinfo
