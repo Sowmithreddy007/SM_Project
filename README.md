@@ -268,3 +268,4 @@ Caddyfile
 SPEC.md
 ARCHITECTURE.md
 ```
+# SM_Project
